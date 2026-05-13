@@ -1,4 +1,4 @@
-# claude-gauge
+# claude-usage
 
 > A Claude Code skill that shows your plan usage limits — reads straight from macOS Keychain, no browser required.
 
@@ -37,15 +37,15 @@ No new auth. No stored credentials. No external services. Just what Claude Code 
 Run this from the root of any Claude Code project:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/mreza0100/claude-gauge/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/mreza0100/claude-usage/main/install.sh)
 ```
 
 Or manually:
 
 ```bash
-mkdir -p .claude/skills/claude-gauge
-curl -fsSL https://raw.githubusercontent.com/mreza0100/claude-gauge/main/SKILL.md  -o .claude/skills/claude-gauge/SKILL.md
-curl -fsSL https://raw.githubusercontent.com/mreza0100/claude-gauge/main/usage.mjs -o .claude/skills/claude-gauge/usage.mjs
+mkdir -p .claude/skills/claude-usage
+curl -fsSL https://raw.githubusercontent.com/mreza0100/claude-usage/main/SKILL.md  -o .claude/skills/claude-usage/SKILL.md
+curl -fsSL https://raw.githubusercontent.com/mreza0100/claude-usage/main/usage.mjs -o .claude/skills/claude-usage/usage.mjs
 ```
 
 ## Usage
@@ -61,7 +61,7 @@ Claude will invoke the skill and run `usage.mjs` in your project.
 Or run it directly anytime:
 
 ```bash
-node .claude/skills/claude-gauge/usage.mjs
+node .claude/skills/claude-usage/usage.mjs
 ```
 
 ## Usage windows explained

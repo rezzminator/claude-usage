@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
-# Install claude-gauge as a Claude Code skill in the current project.
+# Install claude-usage as a Claude Code skill in the current project.
 # Run from the root of any Claude Code project.
-# Usage: bash <(curl -fsSL https://raw.githubusercontent.com/mreza0100/claude-gauge/main/install.sh)
+# Usage: bash <(curl -fsSL https://raw.githubusercontent.com/mreza0100/claude-usage/main/install.sh)
 
 set -euo pipefail
 
-SKILL_DIR=".claude/skills/claude-gauge"
-REPO_URL="https://raw.githubusercontent.com/mreza0100/claude-gauge/main"
+SKILL_DIR=".claude/skills/claude-usage"
+REPO_URL="https://raw.githubusercontent.com/mreza0100/claude-usage/main"
 
 echo ""
-echo "Installing claude-gauge skill..."
+echo "Installing claude-usage skill..."
 
 if [[ ! -d ".claude" ]]; then
   echo "Error: no .claude/ directory found. Run this from the root of a Claude Code project."

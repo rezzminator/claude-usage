@@ -1,4 +1,4 @@
-# claude-gauge — Claude Plan Usage Skill
+# claude-usage — Claude Plan Usage Skill
 
 A Claude Code skill that reads your Claude plan usage directly from macOS Keychain and displays it in the terminal — no browser, no settings panel, no copy-pasting tokens.
 
@@ -13,10 +13,10 @@ Load this skill when the user asks any of the following:
 
 ## How it works
 
-Run the script located at `.claude/skills/claude-gauge/usage.mjs`:
+Run the script located at `.claude/skills/claude-usage/usage.mjs`:
 
 ```bash
-node .claude/skills/claude-gauge/usage.mjs
+node .claude/skills/claude-usage/usage.mjs
 ```
 
 Then present the output to the user. Do not paraphrase — the script output is already formatted for the user.
