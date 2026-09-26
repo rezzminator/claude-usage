@@ -37,15 +37,15 @@ No new auth. No stored credentials. No external services. Just what Claude Code 
 Run this from the root of any Claude Code project:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/mreza0100/claude-usage/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/rezzminator/claude-usage/main/install.sh)
 ```
 
 Or manually:
 
 ```bash
 mkdir -p .claude/skills/claude-usage
-curl -fsSL https://raw.githubusercontent.com/mreza0100/claude-usage/main/SKILL.md  -o .claude/skills/claude-usage/SKILL.md
-curl -fsSL https://raw.githubusercontent.com/mreza0100/claude-usage/main/usage.mjs -o .claude/skills/claude-usage/usage.mjs
+curl -fsSL https://raw.githubusercontent.com/rezzminator/claude-usage/main/SKILL.md  -o .claude/skills/claude-usage/SKILL.md
+curl -fsSL https://raw.githubusercontent.com/rezzminator/claude-usage/main/usage.mjs -o .claude/skills/claude-usage/usage.mjs
 ```
 
 ## Usage

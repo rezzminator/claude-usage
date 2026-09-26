@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # Install claude-usage as a Claude Code skill in the current project.
 # Run from the root of any Claude Code project.
-# Usage: bash <(curl -fsSL https://raw.githubusercontent.com/mreza0100/claude-usage/main/install.sh)
+# Usage: bash <(curl -fsSL https://raw.githubusercontent.com/rezzminator/claude-usage/main/install.sh)
 
 set -euo pipefail
 
 SKILL_DIR=".claude/skills/claude-usage"
-REPO_URL="https://raw.githubusercontent.com/mreza0100/claude-usage/main"
+REPO_URL="https://raw.githubusercontent.com/rezzminator/claude-usage/main"
 
 echo ""
 echo "Installing claude-usage skill..."
